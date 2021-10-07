@@ -120,7 +120,8 @@
 			<a-scene>
 				<!--Images Collection-->
 				<a-assets timeout="99999">
-					<img id="loc1" src="360Images/IMG_20210628_143320_00_374.jpg" />
+					
+					<!--img id="loc1" src="360Images/IMG_20210628_143320_00_374.jpg" />
 					<img id="loc2" src="360Images/IMG_20210628_143411_00_375.jpg" />					
 					<img id="loc3" src="360Images/IMG_20210628_144033_00_382.jpg" />
 					<img id="loc4" src="360Images/IMG_20210628_144144_00_383.jpg" />
@@ -131,10 +132,22 @@
 					<img id="loc9" src="360Images/IMG_20210628_145128_00_392.jpg" />
 					<img id="loc10" src="360Images/IMG_20210628_155328_00_396.jpg" />
 					<img id="loc11" src="360Images/IMG_20210628_155516_00_398.jpg" />
-					<img id="loc12" src="360Images/IMG_20210628_155606_00_399.jpg" />
+					<img id="loc12" src="360Images/IMG_20210628_155606_00_399.jpg" /-->
 					
+					<img id="loc1" src="360Images/IMG_20211004_135820_00_400.jpg" />
+					<img id="loc2" src="360Images/IMG_20211004_140131_00_402.jpg" />					
+					<img id="loc3" src="360Images/IMG_20211004_140838_00_407.jpg" />
+					<img id="loc4" src="360Images/IMG_20211004_141113_00_409.jpg" />
+					<img id="loc5" src="360Images/IMG_20211004_141333_00_410.jpg" />
+					<img id="loc6" src="360Images/IMG_20211004_141521_00_412.jpg" />
+					<img id="loc7" src="360Images/IMG_20211004_140250_00_403.jpg" />
+					<img id="loc8" src="360Images/IMG_20211004_140400_00_404.jpg" />
+					<img id="loc9" src="360Images/IMG_20211004_142310_00_414.jpg" />
+					<img id="loc10" src="360Images/IMG_20211004_142504_00_417.jpg" />
+					<img id="loc11" src="360Images/IMG_20211004_142559_00_418.jpg" />
+					<img id="loc12" src="360Images/IMG_20211004_142721_00_421.jpg" />
 					<img id="arrow" src="assets/arrow.png" />
-					<video id="Simulation1"  src="Videos/MPAgallery.mp4" ></video>
+					<video id="Simulation1"  src="Videos/Eye Tracker Video.mp4"></video>
 				</a-assets>
 				<!--360 Skybox-->
 				<!--sandra edited rotation to fit photos-->>
@@ -167,7 +180,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc2;spotgroup:group-point2;
 						nameLink:Area2;"
-							position="-0.485 0 -8.16"
+							position="0.013 0 -8.16"
 							rotation="0 180 90"
 							scale="0.9 0.9 0.9"
 						></a-image>							
@@ -205,9 +218,9 @@
 							class="arrowPointer"
 							spot="linkto:#loc1;spotgroup:group-point1;
 						nameLink:Area1;"
-							position="0.2 0.128 7.9"
+							position="-0.27 -0.269 9.645"
 							rotation="0 0 0"
-							scale="0.9 0.9 0.9"
+							scale="1.1 1.1 1.1"
 						></a-image>
 						
 						<a-image
@@ -215,7 +228,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc3;spotgroup:group-point3;
 						nameLink:Area1;"
-							position="-7.570 -0.139 5.144"
+							position="-8.026 -0.436 4.336"
 							rotation="0 -1.65 0"
 							scale="1.5 1.5 1.5"
 						></a-image>
@@ -235,7 +248,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc7;spotgroup:group-point7;
 						nameLink:Area3;"
-							position="-8.78 -0.17 0.514"
+							position="-9.80 -0.08 -0.329"
 							rotation="0 -90 0"
 							scale="0.93 0.93 0.93"
 						></a-image>
@@ -264,7 +277,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc4;spotgroup:group-point4;
 						nameLink:Area2;"
-							position="-2.14 0.316 7.56"
+							position="-1.5 0.316 7.56"
 							rotation="180 0 -96"
 							scale="0.9 0.9 0.9"
 						></a-image>
@@ -283,9 +296,9 @@
 							class="arrowPointer"
 							spot="linkto:#loc5;spotgroup:group-point5;
 						nameLink:Area4;"
-							position="-8.63 0.458 -0.146"
+							position="-8.2 0.458 0.6"
 							rotation="0 -90 -95"
-							scale="0.9 0.9 0.9"
+							scale="1 1 1"
 						></a-image>
 						<a-image
 							id="p3loc2spot"
@@ -317,27 +330,35 @@
 							scale="0.9 0.9 0.9"
 						></a-image>	 -->
 						<!--go out the door--> 
+						<a-entity
+							id="dialog4"
+							position="-5.41 1.266 -0.665"						
+							dialog-popup="
+						title: Chilled Water Pipe;
+						body:- The Chilled Water Supply (CHWS) pipe will supply chilled water to the AHU.\n\n- Heat will be absorbed by the chilled water from the coil in the AHU and return back to the chiller through the Chilled Water return (CHWR) pipe.;
+						image: hotspots/Full Mission Ship-handling Simulator.PNG;"
+						></a-entity>
 						<a-image
 							id="p4loc3aspot"
 							class="arrowPointer"
 							spot="linkto:#loc2;spotgroup:group-point2;
 						nameLink:Area3;"
-							position="1.6 0.11 -9.46"
+							position="1.8 0.11 -9.46"
 							rotation="0 180 0"
-							scale="0.9 0.9 0.9"
+							scale="1.15 1.15 1.15"
 						></a-image>	
 						<a-image
 							id="p4loc3bspot"
 							class="arrowPointer"
 							spot="linkto:#loc5;spotgroup:group-point5;
 						nameLink:Area3;"
-							position="-4.95 0.392 -8.08"
+							position="-4.53 0.392 -8.38"
 							rotation="0 -142 10"
-							scale="1 1 1"
+							scale="1.1 1.1 1.1"
 						></a-image>						
 						<a-entity
 							id="dialog3"
-							position="4.862 -0.5 -0.568"							
+							position="4.862 0.065 -0.144"							
 							dialog-popup="
 						title: Chilled Water Pipe;
 						body:- The Chilled Water Supply (CHWS) pipe will supply chilled water to the AHU.\n\n- Heat will be absorbed by the chilled water from the coil in the AHU and return back to the chiller through the Chilled Water return (CHWR) pipe.;
@@ -345,9 +366,10 @@
 						></a-entity>
 						<a-entity
 							id="Video2"
-							position="-4.18 -0.80 3.1"						
+							position="-4.18 -0.80 3.1"	
+							scale="0.7 0.7 0.7"						
 							video-popup="
-						video :Videos/Freefall.mp4;
+						video :Videos/Eye Tracker Video.mp4;
 						src: hotspots/Tobii Station.png;
 						title: Insert Video Description here;"										
 						></a-entity>
@@ -372,20 +394,13 @@
 							rotation="90 275 0"
 							scale="0.9 0.9 0.9"
 						></a-image> -->
-						<a-entity
-							id="dialog4"
-							position="-0.02 -0.10 5.16"						
-							dialog-popup="
-						title: Chilled Water Pipe;
-						body:- The Chilled Water Supply (CHWS) pipe will supply chilled water to the AHU.\n\n- Heat will be absorbed by the chilled water from the coil in the AHU and return back to the chiller through the Chilled Water return (CHWR) pipe.;
-						image: hotspots/Full Mission Ship-handling Simulator.PNG;"
-						></a-entity>
+						
 						<a-image
 							id="p5loc3aspot"
 							class="arrowPointer"
 							spot="linkto:#loc3;spotgroup:group-point3;
 						nameLink:Area4;"
-							position="8.255 -0.19 -0.813"
+							position="8.255 -0.19 -0.018"
 							rotation="0 90 180"
 							scale="0.9 0.9 0.9"
 						></a-image>
@@ -405,7 +420,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc6;spotgroup:group-point6;
 						nameLink:Area6;"
-							position="-4.87 -0.12 6.87"
+							position="-6.42 -0.26 5.48"
 							rotation="0 -31 180"
 							scale="1.0 1.0	1.0 "
 						></a-image>							
@@ -432,7 +447,7 @@
 						></a-image>					
 						<a-entity
 							id="dialog5"
-							position="0.18 -1.09 5.67"
+							position="0.18 -1.94 5.67"
 							dialog-popup="
 						title: Centrifugal fan in the AHU;
 						body:- To supply cooled air into the A/C space.\n\nMaintenance\n- Cleaning of fan housing and blades.\n- Lubricate and adjust of fan belts.\n- Monitor of vibration and noise.;	  
@@ -440,7 +455,7 @@
 						></a-entity>
 						<a-entity
 							id="dialog7"
-							position=" 0.60 -1.26 -5.65"
+							position="-0.03 -1.90 -5.65"
 							
 							dialog-popup="
 						title: Centrifugal fan in the AHU;
@@ -450,11 +465,13 @@
 						
 						<a-entity
 							id="dialog6"
-							position="-6.48 -0.90 -1.42"
+							position="-6.48 -0.67 0.02"
 							dialog-popup="
 						body:- To supply cooled air into the A/C space.\n\nMaintenance\n- Cleaning of fan housing and blades.\n- Lubricate and adjust of fan belts.\n- Monitor of vibration and noise.;	  
 						image: hotspots/Repeater Screen.PNG;"
+						
 						></a-entity>
+					
 						
 					</a-entity>
 					<a-entity id="group-point7" visible="false">
@@ -473,7 +490,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc2;spotgroup:group-point2;
 						nameLink:Area6;"
-							position="8.688 0.16 0.425"
+							position="8.688 0.16 -0.039"
 							rotation="0 90 90"
 							scale="1.0 1.0 1.0"
 						></a-image>
@@ -492,7 +509,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc8;spotgroup:group-point8;
 						nameLink:Area6;"
-							position="-9.41 0.14 -0.217"
+							position="-9.41 0.14 0.103"
 							rotation="0 -90 -90"
 							scale="1 1 1"
 						></a-image>
@@ -521,7 +538,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc7;spotgroup:group-point7;
 						nameLink:Area1;"
-							position="9.0 0.04 -0.25"
+							position="9.0 0.04 -0.37"
 							rotation="0 90 90"
 							scale="0.9 0.9 0.9"
 						></a-image>
@@ -530,7 +547,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc9;spotgroup:group-point9;
 						nameLink:Area9;"
-							position="-0.29 -0.06 9.20"
+							position="0.958 -0.06 9.20"
 							rotation="0 0 0"
 							scale="2.6 2.6 2.6 "
 						></a-image>
@@ -637,7 +654,7 @@
 							class="arrowPointer"
 							spot="linkto:#loc9;spotgroup:group-point9;
 						nameLink:Area9;"
-							position="7.529 -0.34 -1.14"
+							position="7.529 -0.34 -0.9"
 							rotation="0 90 0"							
 							scale="1 1 1"
 						></a-image>
@@ -668,9 +685,9 @@
 							class="arrowPointer"
 							spot="linkto:#loc9;spotgroup:group-point9;
 						nameLink:Area10;"
-							position="-0.02 -0.23 -7.9"
+							position="-1.17 -1.23 -7.9"
 							rotation="0 180 90"
-							scale="0.9 0.9	0.9"
+							scale="2 2 2"
 						></a-image>
 						<!--floor-->
 						<!-- <a-image
