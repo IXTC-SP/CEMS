@@ -19,7 +19,7 @@
 		border-radius: 10px 0 0 10px;
 	}
 	.itemImg {
-		border-radius: 10px 10px 10px 10px;
+		border-radius: 5px 5px 5px 5px;
 		max-height: 100%;
 		max-width: 100%;
 	}
@@ -93,7 +93,7 @@
 	.itemImg {
 		max-width: 90%;
 		max-height: 90%;
-		border-radius: 10px 10px 10px 10px;
+		border-radius: 5px 5px 5px 5px;
 	}
 	.centeritemImg {
 		border-radius: 10px 10px 10px 10px;
